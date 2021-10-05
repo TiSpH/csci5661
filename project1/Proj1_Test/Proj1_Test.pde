@@ -103,7 +103,7 @@ Vec2 computeAgentForces(int id){
       hitInfo hit = rayCircleListIntersect(circlePos, circleRad, numObstacles, agentPs[id], dirs[id], 5, agentSize);
       float ttc = hit.t;
       if (hit.hit){
-        acc.add(dirs[id].plus(new Vec2(random(0.01),random(0.01))).times(-k_avoid * (1/ttc)));
+        acc.add(dirs[id].plus(new Vec2(random(0.01)-0.005,random(0.01)-0.005)).times(-k_avoid * (1/ttc)));
       }  
   }
   
@@ -390,7 +390,8 @@ void draw() {
         agentPs[n] = curTarPos;
         targets[n]++;
       } else {
-        dirs[n] = nodePos[paths[n].get(targets[n])].minus(agentPs[n]).normalized();
+        Vec2 to = nodePos[paths[n].get(targets[n])].minus(agentPs[n]).normalized();
+        dirs[n] = interpolate(dirs[n], to, 0.1);
         agentVel[n] = dirs[n].times(agentSpeed);
         //agentPs[n].add(dirs[n].times(agentSpeed/frameRate));
         moveAgent(1/frameRate);
