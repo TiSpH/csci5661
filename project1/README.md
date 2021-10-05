@@ -1,5 +1,5 @@
 # Project 1: GeoMetric Methos
-Name: Zhou Zhuang
+Group: Zhou Zhuang
 # Features:
 - Single Agent Navigation
 
