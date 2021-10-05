@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/14122965/135947716-efd39b7f-51aa-4d7a-
   - Obstacles are rendered as planets
   - User controled obstacle is rendered as death star
   - Background is space
-- Orientation Smoothing (Did not show in other vidoes. I did this last )
+- Orientation Smoothing (**Did not show in other vidoes. I did this last**)
   - Rockets will move towards where head is pointing to
   - Smooth turn
 - User Scenario Editing
