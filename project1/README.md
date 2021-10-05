@@ -53,4 +53,4 @@ https://user-images.githubusercontent.com/14122965/135956290-823c55f8-6910-4c1d-
 
 # Difficulties
 - Agents will jitter after reaching the end when TTC is enabled. Simply setting the velocity to zero will affect the application of force.
-- Did not find a good way to smooth orientation
+- Did not find a good way to smooth orientation naturally
