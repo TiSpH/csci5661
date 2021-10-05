@@ -2,6 +2,10 @@
 Group: Zhou Zhuang
 
 [Source code](Proj1_Test)
+
+# Summary:
+I rendered agents and obstacles to rockets and planets in space. Features such as Improved Agent & Scene Rendering, User Scenario Editing, Realtime User Interation, Multiple Agents Planning and Crowd Simulation are implemented. They will be listed below with videos. 
+
 # Features:
 - Single Agent Navigation
   - A* is used
