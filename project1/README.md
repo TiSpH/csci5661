@@ -1,11 +1,8 @@
 # Project 1: GeoMetric Methos
 Name: Zhou Zhuang
-
-https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
-
 # Features:
 - Single Agent Navigation
-  - Video [here](media/single.mp4)
+  - https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
 - Improved Agent & Scene Rendering
   - Agents are rendered as rockets
   - Obstacles are rendered as planets
