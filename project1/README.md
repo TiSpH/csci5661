@@ -15,6 +15,7 @@ https://user-images.githubusercontent.com/14122965/135947716-efd39b7f-51aa-4d7a-
 - User Scenario Editing
   - Use left/right mouse button to set dest/src
   - Use center mouse button to set death star
+  - Use arrow keys to move death star
 - Realtime User Interation
   - Agents will avoid to hit death star in real time
 - Multiple Agents Planning
