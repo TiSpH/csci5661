@@ -4,6 +4,8 @@ Group: Zhou Zhuang
 [Source code](Proj1_Test)
 # Features:
 - Single Agent Navigation
+  - A* is used
+  - Agents will skip nodes if possible
 
 https://user-images.githubusercontent.com/14122965/135947716-efd39b7f-51aa-4d7a-b09f-78612b97259c.mp4
 
@@ -33,5 +35,14 @@ https://user-images.githubusercontent.com/14122965/135950528-e18771fb-bbf3-4309-
 
 - Crowd Simulation
   - Agents will avoid other agents and obstacles
+  - TTC is used
 
 https://user-images.githubusercontent.com/14122965/135951496-4176a554-6f1c-448f-b884-c1fe43f0c45d.mp4
+
+# Library used
+- java.util.HashSet
+- java.util.PriorityQueue
+
+# Difficultes
+- Agents will jitter after reaching the end when TTC is enabled
+- Did not find a good way to smooth orientation
