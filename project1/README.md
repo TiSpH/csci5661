@@ -39,10 +39,10 @@ https://user-images.githubusercontent.com/14122965/135950528-e18771fb-bbf3-4309-
 
 https://user-images.githubusercontent.com/14122965/135951496-4176a554-6f1c-448f-b884-c1fe43f0c45d.mp4
 
-# Library used
+# Libraries used
 - java.util.HashSet
 - java.util.PriorityQueue
 
-# Difficultes
+# Difficulties
 - Agents will jitter after reaching the end when TTC is enabled
 - Did not find a good way to smooth orientation
