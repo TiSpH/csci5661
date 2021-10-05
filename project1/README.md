@@ -36,8 +36,12 @@ https://user-images.githubusercontent.com/14122965/135950528-e18771fb-bbf3-4309-
 - Crowd Simulation
   - Agents will avoid other agents and obstacles
   - TTC is used
+  - Interesting senario 1: sometimes an agent will get stuck bewteen another agent and obstacles
+  - Interesting senario 2: agents will form a circle if they have same destination
 
 https://user-images.githubusercontent.com/14122965/135951496-4176a554-6f1c-448f-b884-c1fe43f0c45d.mp4
+
+https://user-images.githubusercontent.com/14122965/135956290-823c55f8-6910-4c1d-9c8e-6ec052b4bbda.mp4
 
 # Libraries used
 - java.util.HashSet
