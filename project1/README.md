@@ -16,6 +16,9 @@ https://user-images.githubusercontent.com/14122965/135947716-efd39b7f-51aa-4d7a-
   - Use left/right mouse button to set dest/src
   - Use center mouse button to set death star
   - Use arrow keys to move death star
+
+https://user-images.githubusercontent.com/14122965/135948675-92d73127-61c9-47b5-938a-fb8d0878f4d7.mp4
+
 - Realtime User Interation
   - Agents will avoid to hit death star in real time
 - Multiple Agents Planning
