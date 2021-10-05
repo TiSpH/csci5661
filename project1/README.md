@@ -17,6 +17,9 @@ https://user-images.githubusercontent.com/14122965/135947716-efd39b7f-51aa-4d7a-
 - Orientation Smoothing 
   - Rockets will move towards where head is pointing to
   - Smooth turn using interpolation (**Did not show in other vidoes. I did this last**)
+
+https://user-images.githubusercontent.com/14122965/135958423-34093929-1bda-428e-8950-61674fd4360b.mp4
+
 - User Scenario Editing
   - Use left/right mouse button to set dest/src
   - Use center mouse button to set death star
