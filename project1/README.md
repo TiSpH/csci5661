@@ -5,7 +5,7 @@ Group: Zhou Zhuang
 # Features:
 - Single Agent Navigation
   - A* is used
-  - Agents will skip nodes if possible
+  - Agents will skip redundant nodes if possible
 
 https://user-images.githubusercontent.com/14122965/135947716-efd39b7f-51aa-4d7a-b09f-78612b97259c.mp4
 
