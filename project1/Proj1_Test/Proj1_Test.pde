@@ -19,7 +19,7 @@ float k_avoid = 1000;
 //A list of circle obstacles
 static int maxNumObstacles = 1000;
 static int maxNumAgents = 20;
-int numAgents = 8;
+int numAgents = 1;
 Vec2 circlePos[] = new Vec2[maxNumObstacles]; //Circle positions
 float circleRad[] = new float[maxNumObstacles];  //Circle radii
 
@@ -37,7 +37,7 @@ Vec2 agentAcc[] = new Vec2[maxNumAgents];
 //Vec2 agentPos = new Vec2(100, 500);
 float agentSpeed = 50;
 //Vec2 agentDir = new Vec2(0,-1);
-float agentSize = 1;
+float agentSize = 6;
 //int curTarget = 0;
 //Vec2 goalPos = new Vec2(500, 200);
 PShape rocket;
