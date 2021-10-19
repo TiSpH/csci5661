@@ -35,7 +35,7 @@ Vec2 agentAcc[] = new Vec2[maxNumAgents];
 
 //Vec2 startPos = new Vec2(100, 500);
 //Vec2 agentPos = new Vec2(100, 500);
-float agentSpeed = 50;
+float agentSpeed = 200;
 //Vec2 agentDir = new Vec2(0,-1);
 float agentSize = 6;
 //int curTarget = 0;
@@ -391,7 +391,7 @@ void draw() {
         targets[n]++;
       } else {
         Vec2 to = nodePos[paths[n].get(targets[n])].minus(agentPs[n]).normalized();
-        dirs[n] = interpolate(dirs[n], to, 0.1);
+        dirs[n] = to;
         agentVel[n] = dirs[n].times(agentSpeed);
         agentPs[n].add(dirs[n].times(agentSpeed/frameRate));
         //moveAgent(1/frameRate);
