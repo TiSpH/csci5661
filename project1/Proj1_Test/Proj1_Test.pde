@@ -37,7 +37,7 @@ Vec2 agentAcc[] = new Vec2[maxNumAgents];
 //Vec2 agentPos = new Vec2(100, 500);
 float agentSpeed = 50;
 //Vec2 agentDir = new Vec2(0,-1);
-float agentSize = 6;
+float agentSize = 1;
 //int curTarget = 0;
 //Vec2 goalPos = new Vec2(500, 200);
 PShape rocket;
@@ -393,8 +393,8 @@ void draw() {
         Vec2 to = nodePos[paths[n].get(targets[n])].minus(agentPs[n]).normalized();
         dirs[n] = interpolate(dirs[n], to, 0.1);
         agentVel[n] = dirs[n].times(agentSpeed);
-        //agentPs[n].add(dirs[n].times(agentSpeed/frameRate));
-        moveAgent(1/frameRate);
+        agentPs[n].add(dirs[n].times(agentSpeed/frameRate));
+        //moveAgent(1/frameRate);
       }
     }
   }
