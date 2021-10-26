@@ -2,6 +2,10 @@
 Group: Zhou Zhuang
 
 [Source code](Proj1_Test)
+
+# Summary:
+I rendered agents and obstacles to rockets and planets in space. Features such as Improved Agent & Scene Rendering, User Scenario Editing, Realtime User Interation, Multiple Agents Planning and Crowd Simulation are implemented. They will be listed below with videos. 
+
 # Features:
 - Single Agent Navigation
   - A* is used
@@ -42,6 +46,7 @@ https://user-images.githubusercontent.com/14122965/135950528-e18771fb-bbf3-4309-
   - TTC is used
   - Interesting senario 1: sometimes (00:16) an agent will get stuck bewteen another agent and obstacles
   - Interesting senario 2: agents will form a circle if they have same destination
+  - Jitter phenomenon will improve after enabling orientation smoothing (not shown here).
 
 https://user-images.githubusercontent.com/14122965/135951496-4176a554-6f1c-448f-b884-c1fe43f0c45d.mp4
 
