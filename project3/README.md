@@ -11,7 +11,7 @@ Group: Zhou Zhuang
   - Left arm and right arm
   - Moving independently
 
-https://user-images.githubusercontent.com/14122965/135947716-efd39b7f-51aa-4d7a-b09f-78612b97259c.mp4
+https://user-images.githubusercontent.com/14122965/141924101-eaeb8440-fb84-4995-9618-371e6840da94.MP4
 
 # Libraries used
 - Processing 3
