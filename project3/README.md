@@ -3,15 +3,14 @@ Group: Zhou Zhuang
 
 [Source code](IK)
 
-# Summary:
-
-
 # Features:
 - Multi-arm IK
   - Left arm and right arm
   - Moving independently
 
-- Joint limits (0:10)
+- Joint limits
+  - Arms will move smoothly to the new target (speed limits)
+  - Angle limits (0:10)
 - User Interaction
 
 https://user-images.githubusercontent.com/14122965/141924101-eaeb8440-fb84-4995-9618-371e6840da94.MP4
@@ -34,5 +33,4 @@ https://user-images.githubusercontent.com/14122965/141924236-485c817f-4add-4945-
 - Processing 3
 
 # Difficulties
-- 
-- 
+- Tried a lot of time on 3D simulation but failed.
