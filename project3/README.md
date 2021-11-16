@@ -21,8 +21,8 @@ https://user-images.githubusercontent.com/14122965/141924101-eaeb8440-fb84-4995-
 https://user-images.githubusercontent.com/14122965/141924256-905fc5fc-c323-4528-a5f8-84a6ffeb0434.MP4
 
 - Alternative IK Solver
-  - The first IK solver starts to rotate the end limb first
-  - The second IK solver regards the end effector as the root and propagates backwards from the original root
+  - The first IK solver (right red arm) starts to rotate the end limb first
+  - The second IK solver (left blue arm) regards the end effector as the root and propagates backwards from the original root
   - Sometimes the second IK solver moves faster than the first one. (0:03)
   - The first one is easier and more flexible to me because it is easir to set limits. While the second one needs interpolation.
 
