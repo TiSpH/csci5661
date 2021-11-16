@@ -33,4 +33,4 @@ https://user-images.githubusercontent.com/14122965/141924236-485c817f-4add-4945-
 - Processing 3
 
 # Difficulties
-- Tried a lot of time on 3D simulation but failed.
+- Tried a lot of time on 3D simulation but failed. I think is easior to use Euler angles instead of matrices.
