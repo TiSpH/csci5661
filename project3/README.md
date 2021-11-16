@@ -17,6 +17,7 @@ Group: Zhou Zhuang
 https://user-images.githubusercontent.com/14122965/141924101-eaeb8440-fb84-4995-9618-371e6840da94.MP4
 
 - Obstacles
+  - Using line circle intersection checking algorithm similar to the project 1
 
 https://user-images.githubusercontent.com/14122965/141924256-905fc5fc-c323-4528-a5f8-84a6ffeb0434.MP4
 
